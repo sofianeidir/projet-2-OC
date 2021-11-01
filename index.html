@@ -4,25 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <script src="https://kit.fontawesome.com/9e216b68e0.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+   
+    
     <title>Booki</title>
 
 </head>
 <body>
-    <!--Header-->
+<main class="container">
+    
+<!--Header-->
     <header>
         <nav>
-            <img src="assets/images/logo/Booki.png" alt="Logo" />
-            <ul>
-                <li>Hébergements</li>
-                <li>Activités</li>
-            </ul>
+            <img src="assets/images/logo/Booki.png"  alt="Logo" />
+              <ul>  
+                <a href="#hergement"><li>Hébergements</li></a>
+                <a href="#activity"><li>Activités</li></a>
+              </ul>
+            
         </nav>
+       
+        <div id="title_header">
+        <h1 id="first_title">Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p class="info_secondaire">En plein centre ville ou en pleine nature</p>
+        </div>
+
     </header>
-    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+
+
+    <!--Barre de recherche-->
+
+    <section id="search_section">
+        <form class="search_bar" method="post" action="https://www.php.net/manual/fr/intro-whatis.php">
+           
+                <span class="gps_logo">
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                </span>
+                <input type="search" class="type_search" placeholder="   Marseille, France" name="recherches">
+           
+                <input type="submit" id="boutton" value="Rechercher" />
+                
+            </form>
+    </section>
+
+    <!------FILTRES------>
+
+    <section id="filtres">
+       <div id="list_filtres">
+           <div id="titre_filtres">Filtres</div>
+           <ul class="rang_filtres">
+               <li><i class="fas fa-money-bill-wave"></i>Économique</li>
+               <li><i class="fas fa-child"></i>Familial</li>
+               <li><i class="fas fa-heart"></i>Romantique</li>
+               <li><i class="fas fa-dog"></i>Animaux autorisés</li>
+
+           </ul>
+       </div>
+       <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+    </section>
+
+
+   <section>
+    <div id="lepremier">
+        
+    
+    
+    
+   
+    
+
+      
+</section>
+</main>
     
 </body>
 </html>
